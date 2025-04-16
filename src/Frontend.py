@@ -213,9 +213,9 @@ def main():
                 
                 # Prediction interpretation
                 if churn_pred == 1:
-                    st.error("❌ This customer is likely to churn")
+                    st.error(" This customer is likely to churn")
                 else:
-                    st.success("✅ This customer is likely to stay")
+                    st.success(" This customer is likely to stay")
             
             with results_col2:
                 # Model details
